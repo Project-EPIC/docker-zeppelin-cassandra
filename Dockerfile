@@ -16,6 +16,8 @@
 # binaries built, and the Makefile to put it in this directory.
 
 FROM gcr.io/google_containers/spark-base:latest
+LABEL maintainer "gerard.casassaez@colorado.edu"
+
 
 ENV ZEPPELIN_VER  0.7.1
 
